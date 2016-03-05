@@ -1,0 +1,230 @@
+@font-face {font-family: 'iconfont';
+    src: url('icon/iconfont.eot'); /* IE9*/
+    src: url('icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}/*矢量图标声明*/
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+.whole{
+	margin: 0 auto;
+	width: 100%;
+}
+.top{
+	margin: 0 auto;
+	width: 100%;
+	height: 300px;
+    background-image:url(picture/bc2.jpg);	
+}
+.logo{
+	font-family: Gabriola;
+	font-size: 32px;
+	margin-left:320px;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:40px;font-style:normal;
+    color: #923232;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 5px 5px 5px #923232;
+}
+.iconfont1{
+	font-family:"iconfont" !important;
+    font-size:5px;font-style:normal;
+    color: #923232;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -103px;
+}
+.iconfont3{
+	font-family:"iconfont" !important;
+    font-size:5px;font-style:normal;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 5px;
+}
+#ho{
+	color: #923232;
+}
+.nav ul{
+	list-style-type:none;
+    margin-left:650px;
+	margin-top: -63px;
+}
+.nav ul li{
+	float:left;
+	margin-left:10px;
+}
+.nav ul li a:link,a:visited{
+	font-size: 21px;
+	padding:10px;	
+	text-decoration:none;
+	color: black;
+}
+.nav ul li a:hover{
+	color: #923232;
+}
+.nav ul li p
+{
+    display:none;
+}
+.nav ul li:hover p{
+    display:block;
+    font-family:Gabriola;
+    font-size: 23px;
+    color: #923232;
+}/*导航栏完*/
+.fly1{
+	margin-top: -6px;
+	margin-left: 13px;
+}
+.fly2{
+	margin-top: -6px;
+	margin-left: 8px;
+}
+.fly3{
+	margin-top: -6px;
+	margin-left: 5px;
+}
+.fly4{
+	margin-top:-6px;
+	margin-left: 29px; 
+}
+.ui{
+	margin:0 auto;
+	width: 860px;
+	height: 120px;
+	margin-top:-100px;
+}
+.do{
+	float: left;
+	margin-left: 200px;
+	width:60px;
+height:60px;
+background:#CF9893;
+border-radius: 25%;
+transition:width 2s, height 2s;
+-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+.do p{
+	color:#4B2B31;
+	font-family: Gabriola;
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 5px 5px 5px #923232; 
+}
+.do:hover{
+	width:90px;
+height:90px;
+transform:rotate(360deg);
+-moz-transform:rotate(360deg); /* Firefox 4 */
+-webkit-transform:rotate(360deg); /* Safari and Chrome */
+-o-transform:rotate(360deg); /* Opera */
+}
+.foot{
+	margin: 0 auto;
+	width: 960px;
+	height: 400px;
+}
+.squ{
+	margin-top: -200px;
+	width: 960px;
+	height: 352px;
+	background-image: url(picture/bi.png);
+}
+.lit{
+	position: relative;
+	top: 302px;
+	width: 960px;
+	height: 50px;
+	background-color:black;
+	opacity: 0.6;
+}
+.cir{
+	float: left;
+	position: relative;
+	left: 20px;
+	top: -58px;
+	margin: 3px;
+	width: 10px;
+	height: 10px;
+	background-color:#D9D9D9;
+	border-radius: 50%;
+}
+.cir:hover{
+	cursor: pointer;
+	background-color:#923232;
+}
+#cir1{
+	background-color:#923232;
+}
+.we{
+	float: left;
+	position: relative;
+	left: 65px;
+	top: 40px;
+	margin: 20px;
+	width: 240px;
+	height: 360px;
+}
+.we p{
+	margin-top: -40px;
+	color:#913147;
+	font-family: Gabriola;
+	font-size: 27px;
+}
+.pic1{
+	width: 240px;
+	height:200px;
+	background-image: url(picture/jg.png);
+	margin-top: -33px;
+}
+.pic2{
+	width: 240px;
+	height:200px;
+	background-color: green;
+	background-image: url(picture/ii.png);
+	margin-top: -33px;
+}
+.pic3{
+	width: 240px;
+	height:200px;
+	background-image: url(picture/nh.png);
+	margin-top: -33px;
+}
+.tt p{
+	line-height: 2px;
+	margin-top: 30px;
+	text-align: center;
+	color:#913147;
+	font-family: Gabriola;
+	font-size: 20px;
+}
+.ff{
+	margin-left: 90px;
+	margin-top: 40px;
+	width: 60px;
+	height: 20px;
+	background-color: #663451;
+	border-radius: 25%;
+}
+.ff a{
+	margin-left: 12px;
+	position: relative;
+	top: -5px;
+	text-decoration: none;
+	font-family: Gabriola;
+	font-size: 20px;
+	color: white;
+}

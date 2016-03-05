@@ -1,0 +1,255 @@
+﻿@font-face {font-family: 'iconfont';
+    src: url('icon/iconfont.eot'); /* IE9*/
+    src: url('icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}/*矢量图标声明*/
+body{
+	margin: 0 auto;
+	padding: 0;
+	background-image:url(picture/bc2.jpg);
+	font-family: "Microsoft YaHei";
+}
+.whole{
+	margin: 0 auto;
+	width: 100%;
+}
+.top{
+	margin: 0 auto;
+	width: 1080px;
+	height: 550px;	
+}
+.logo{
+	margin-top: 20px;
+	font-family: Gabriola;
+	font-size: 32px;
+	margin-left: 20px;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:40px;font-style:normal;
+    color: #923232;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 5px 5px 5px #923232;
+}
+.iconfont1{
+	font-family:"iconfont" !important;
+    font-size:5px;font-style:normal;
+    color: #923232;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -103px;
+}
+#ge{
+	color: #923232;
+}
+.name{
+	position: relative;
+	top: 40px;
+	left: -20px;
+	width: 300px;
+}
+.name p{
+	float: right;
+	font-size: 25px;
+	color: #923232;
+}
+.nav ul{
+	list-style-type:none;
+    margin-left:256px;
+	margin-top: 120px;
+}
+.nav ul li{
+	float:left;
+	margin-left:10px;
+}
+.nav ul li a:link,a:visited{
+	font-size: 21px;
+	padding:5px;	
+	text-decoration:none;
+	color: black;
+}
+.nav ul li a:hover{
+	color: #923232;
+}
+.nav ul li p
+{
+    display:none;
+}
+.nav ul li:hover p{
+    display:block;
+    font-family:Gabriola;
+    font-size: 23px;
+    color: #923232;
+}/*导航栏完*/
+.fly1{
+	margin-top: -60px;
+	margin-left: 30px;
+}
+.fly2{
+	margin-top: -60px;
+	margin-left: 15px;
+}
+.fly3{
+	margin-top: -60px;
+	margin-left: 23px;
+}
+.fly4{
+	margin-top: -60px;
+	margin-left: 8px;
+}
+.top-right{
+	position: relative;
+	left: 150px;
+}
+.top-right a{
+	float:left;
+	text-decoration: none;
+	color:#595959;
+	margin-left: 5px;
+	width: 80px;
+	height:25px;
+	background-color: #E4E4E4;
+	text-align: center; 
+}
+.middle{
+	width: 880px;
+	height: 1000px;	
+	margin: 0 auto;
+}
+#left{
+	margin-left: -40px;
+	margin-top: 170px;
+	height: 650px;
+	width:215px;
+	background-color: #E9DDCD;
+}
+.fra{
+	width: 180px;
+	height: 180px;
+	background-color: #FFF7F2;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.fra a{
+	position: relative;
+	top: 190px;
+	left: 72px;
+	text-decoration: none ;
+	color: #923232;
+}
+.up1{
+	height: 20px;
+	background-color: #CEC1B0;
+}
+.up2{
+	height: 40px;
+	background-color: #CEC1B0;
+}
+.up1 p{
+	margin-left: 10px;
+}
+.up1 a{
+	text-decoration: none ;
+	float: right;
+	margin-top: -38px;
+	color: #923232;
+}
+#right{
+	margin-left: 190px;
+	margin-top: -650px;
+	height: 400px;
+	width: 700px;
+	background-color: #E9DDCD;
+}
+.upp{
+	width:700px;
+	height: 50px;
+	margin: 20px;
+	cursor: pointer;
+}
+.upp p:hover{
+	color: #923232;
+}
+.upp a{
+	text-decoration: none;
+	color: black;
+}
+.upp a:hover{
+	color: #923232;
+}
+#right1{
+	display: none;
+	margin-left: 190px;
+	margin-top: -616px;
+	height: 200px;
+	width: 700px;
+	background-color: #E9DDCD;
+}
+.up22 p{
+	margin-left: 20px;
+}
+.up22 a{
+	position:relative;
+	top: -38px; 
+	text-decoration: none ;
+	margin-left: 600px;
+	color: #923232;
+}
+.show{
+	margin-top: 350px;
+	width: 700px;
+	height: 150px;
+	background-color:#E9DDCD;
+}
+.send textarea{
+	margin-top: 10px;
+	width: 695px;
+	height: 50px;
+}
+.send input{
+	cursor: pointer;
+	margin-left: 600px;
+}
+.mi{
+	margin-top: 320px;
+	margin-left: -15px;
+}
+.ds-post-main {
+	position:relative;
+	width:500px;
+}
+.ds-avatar {
+	position:relative;
+	top:68px; 
+	width:40px;
+	height:40px;
+	padding:5px; 
+	background:#E9DDCD;
+	border-radius:50%;
+}
+.ds-avatar a {
+	display:block; 
+	width:40px; 
+	height:40px;
+	background:#944A54; 
+	border-radius:50%;
+	font-size: 6px;
+	text-decoration: none;
+	color: #CEC1B0;
+}
+.hf{
+	position:relative;
+	top: 9px;
+	left: 2px; 
+}
+.ds-comment-body {
+	margin-left:20px;
+	padding:10px 10px 10px 30px ;
+	height:80px;
+	background:#CEC1B0;
+}

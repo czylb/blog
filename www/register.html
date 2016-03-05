@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DY BLOG</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="register.css">
+	<script language="javascript" src="js/xmlhttprequest.js"></script>
+	<script language="javascript" src="js/register.js"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="logo">
+			<i class="iconfont">&#xe67c;</i>Blog
+			<i class="iconfont">&#xe6f0;</i>
+			<i class="iconfont1">&#xe607;</i>
+		</div><!-- logo -->
+	</div>
+	<div class="middle">
+    	<form action="register.php" method="POST">
+    	    <div class="word">
+    			<b>请设置您的用户信息</b>
+    	    </div>
+            <div id="rgbgdiv">
+            <div id="regnamediv"class="1"><b>注册名称：</b>
+            <input id="regname" name="regname" type="text" />
+            <div id="namediv">请输入用户名</div>
+            </div>
+            <div id="regpwddiv1"class="1"><b>注册密码：</b>
+            <input id="regpwd1" name="regpwd1" type="password" />
+            <div id="pwddiv1">请输入密码</div>
+            </div>
+            <div id="regpwddiv2"class="1"><b>确认密码：</b>
+            <input id="regpwd2" name="regpwd2" type="password" />
+            <div id="pwddiv2">请输入确认密码</div>
+            </div>
+            <div id="regemaildiv"class="1"><b>电子邮箱：</b>
+            <input id="email" name="email" type="text" />
+            <div id="emaildiv">找回密码使用</div>
+            </div>
+            <div id="submit">
+            <input type="submit"value="注册">
+            </div>
+        </form>
+	</div>
+</body>
+</html>
